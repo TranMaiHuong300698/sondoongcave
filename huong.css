@@ -1,0 +1,35 @@
+<style>
+*{
+  margin: 0px;
+  padding: 0p;
+}
+    h1{
+      font-style: normal;
+      text-align: center;
+      color: 		Green;
+      font-size: 40px;
+    }
+    p{
+      font-style: Times New Romane;
+      margin-left:  20px;
+      margin-right:  20px;
+      text-align: justify;
+      color: 	black;
+      font-size: 18px;
+    }
+    .myalbum{
+      margin: 10px 30px;
+    }
+    .myalbum img {
+        padding: 5px;
+        width: 400px;
+        height: 200px;
+        border: 1px solid #ccc;
+        transition: 1s;
+    }
+    .myalbum img:hover {
+        padding: center;
+        border: 1px solid #ccc;
+        transform: scale(1.2);
+
+</style>
