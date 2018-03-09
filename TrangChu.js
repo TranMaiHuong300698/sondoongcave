@@ -1,3 +1,4 @@
+/* chỉnh màu cho phần chứa logo và menu*/
 $(document).ready(function() {
   $(window).scroll(function() {
     if ($(this).scrollTop()> $('#navfix').height())
@@ -6,6 +7,8 @@ $(document).ready(function() {
        $('#navfix').removeClass('color');
   });
 });
+
+  /* phần slide ảnh*/
 var i = 0;
 var images = [];
 var time =2000;
