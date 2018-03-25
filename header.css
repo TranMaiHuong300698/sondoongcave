@@ -1,0 +1,18 @@
+#header{
+  font-size: 19px;
+}
+.image{
+  margin: auto;
+  position: absolute;
+}
+.margin{
+  margin: 12px;
+}
+.none-color{
+  background-color: rgba(0, 0, 0, 0.6 );
+  border-color: rgba(255, 0, 255, 0);
+}
+.color{
+  background-color: black ;
+  border-color: white;
+}
