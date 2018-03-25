@@ -1,3 +1,19 @@
+@import url('http://weloveiconfonts.com/api/?family=zocial');
+*{
+    margin:0;
+   padding:0;
+}
+
+@font-face{
+    font-family:'zocial', sans-serif;
+}
+
+[data-icon]:before{
+    font-family:'zocial';
+    content:attr(data-icon);
+    -webkit-font-smoothing:antialiased;
+}
+
 @font-face {
   font-family: 'Myrial Pro';
   src: url('../fonts/MyriadPro-Regular.otf');
@@ -150,21 +166,6 @@ p.text3{
 }
 .img1{
   text-align: center;
-}
-@import url('http://weloveiconfonts.com/api/?family=zocial');
-*{
-    margin:0;
-   padding:0;
-}
-
-@font-face{
-    font-family:'zocial', sans-serif;
-}
-
-[data-icon]:before{
-    font-family:'zocial';
-    content:attr(data-icon);
-    -webkit-font-smoothing:antialiased;
 }
 
 body{
