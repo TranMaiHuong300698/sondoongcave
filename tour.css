@@ -1,0 +1,367 @@
+@import url('http://weloveiconfonts.com/api/?family=zocial');
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face{
+    font-family:'zocial', sans-serif;
+}
+
+[data-icon]:before{
+    font-family:'zocial';
+    content:attr(data-icon);
+    -webkit-font-smoothing:antialiased;
+}
+body,html{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  max-height: 1200px;
+  font-size: 17px;
+}
+#container-fluid{
+  position:relative;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+
+}
+#section1{
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+}
+#section1 .row{
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 2%;
+  height: auto;
+}
+#section1 .tour{
+  font-size: 17px;
+  text-align: justify;
+}
+/* Mục Lục */
+#section1 .vertical-menu a{
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    border: 2px solid #f2f0ea;
+}
+
+#section1 .vertical-menu a:hover {
+    background-color: #b7b712;
+}
+#section1 .vertical-menu a{
+  -webkit-transition: all .9s ease;
+  -moz-transition: all .9s ease;
+  -ms-trasition: all .9s ease;
+  transition: all .9s ease;
+}
+#section1 .vertical-menu a.active {
+    background-color: #007f7f;
+    color:#ffffff ;
+}
+#section2 .row{
+  background-color: #e5e5e5;
+  min-height: 650px;
+}
+#section2  .row h2{
+      color: black;
+      margin-left: 100px;
+      margin-bottom: 20px;
+    }
+#section2 .tour-facts{
+  width: 90%;
+  margin: auto;
+  font-size: 17px;
+  text-align: inherit;
+}
+    .facts-title{
+    height: 54px;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    background-color:#666666;
+    color: #ffffff ;
+  }
+   .facts-list{
+    list-style: none;
+    text-align: inherit;
+    color:  #ffffff ;
+    background-color:	#0a4f4f;
+  }
+#section2 .tour-pubblic{
+  width: 95%;
+  margin: auto;
+  text-align: justify;
+  font-size: 17px;
+}
+
+    /* định dạng kíc thước cho tab*/
+    .tab {
+        overflow: hidden;
+        background-color: #ffffff;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        float: left;
+        outline: none;
+        cursor: pointer;
+        padding: 15px 34.3px;
+        transition: 0.3s;
+
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: #067272;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+        background-color: #0a4f4f;
+        color: white;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        background-color: #ffffff;
+    }
+#section3 .row{
+  background-image: url('http://savesondoong.org/wp-content/uploads/2017/10/Laptop-4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    .row h2{
+      color: white;
+      margin-left: 100px;
+      margin-bottom: 20px;
+    }
+      .level{
+
+        width: 80%;
+        margin: 7% 10% 5% 10%;
+      }
+      .accordion {
+          background-color: #eee;
+          cursor: pointer;
+          padding: 22px;
+          width: 100%;
+          border: 1px solid #ccc;
+          text-align: left;
+          outline: none;
+          font-size: 17px;
+          transition: 0.3s;
+      }
+      .accordion ul li{
+        padding: 10px 0px 10px 0px;
+      }
+
+      .accordion:hover {
+          background-color:#067272 ;
+      }
+      .active {
+          background-color: #0a4f4f;
+          color: white;
+      }
+
+      .panel {
+          padding: 0 20px;
+          text-align: justify;
+          font-size: 17px;
+          display: none;
+          background-color: white;
+          overflow: hidden;
+      }
+
+#section4 .row{
+    min-height: 950px;
+}
+#section4 .album{
+  width: 98%;
+  margin: auto;
+}
+#section4 .row h2{
+    color: black;
+    margin-left: 100px;
+}
+    .jlr .jlr_item {
+      display: inline-block;
+      float: left;
+
+
+    }
+
+    .jlr img.jlr_img {
+        width: 440px;
+        height: 280px;
+        border: 3px solid #ccc;
+
+    }
+    .jlr img:hover {
+        background-color: #067272;
+    }
+
+    /* Create an active/current tablink class */
+    .jlr img.active {
+        background-color: #0a4f4f;
+        color: white;
+    }
+
+    .jlr img.jlr_loaded {
+         -webkit-transition: opacity 1s ease-in;
+        -moz-transition: opacity 1s ease-in;
+        -o-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+        opacity: 1;
+    }
+
+    .gray_out {
+        background-color: #eee;
+    }
+/* định dạng cho phafanf footer */
+#footer{
+  clear: both;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color:#2E3639;
+  position:relative;
+  z-index: 1;
+}
+#footer a{
+    text-decoration:none;
+    -webkit-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -ms-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear;
+}
+
+#footer .bar{ /* màu nền cho footer */
+  background-color:#1E2629;
+  padding: 30px 0; ;
+}
+#footer .row{ /* kich thước chứa nội dung của footer */
+  width: 100%;
+  margin: 0px auto;
+  height: 50px;
+  font-size:15px;
+
+  max-width:1200px;
+  position:relative;
+
+}
+  #col-sm-5 .links{ /* định dạng cho menu */
+    margin: auto;
+    width: auto;
+    float:left;
+    list-style:none outside none;
+    position:relative;
+  }
+
+  .links li{
+    list-style: none;
+    float:left;
+    margin-right: 20px;
+  }
+
+  .links a{ color:#778888;} /* màu của chữ ở menu */
+  .links a:hover{color:#FFFFFF;} /* hiệu ứng của chữ khi click menu */
+
+  /* định dạng cho icon */
+  .social{
+    position:absolute;
+    right:0;
+    top:0;
+  }
+
+  .social a{ color:#778888;margin-right: 20px} /* màu vào icon */
+  .social a:hover{color:#FFFFFF;}/* hiệu ứng khi click vào icon */
+  .social .icon{
+    display:inline-block;
+    font-size:36px;
+    vertical-align:middle;
+    -webkit-transition:-webkit-transform .3s linear;
+    -moz-transition: -moz-transform .3s linear;
+    -ms-transition:-ms-transform .3s linear;
+    -o-transition:-ms-transform .3s linear;
+    transition: transform .3s linear;
+  }
+
+  .social a:hover .icon{ /* hiệu ứng xoay của icon khi di chuột tới */
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    transform:rotate(360deg);
+  }
+
+  .social .info{
+    display:inline-block;
+    vertical-align:middle;
+  }
+
+  .social .info .num{display:block;}
+  .clear{ clear:both; }
+  .copyright{
+    margin:0;
+    color:#778888;
+  }
+
+  @media screen and (max-width:1000px)
+  {
+    .links, .social, .copyright{
+    float:none;
+    text-align:center;
+  }
+
+  .social{
+    position:relative;
+    margin:10px 0;
+  }
+
+  .links li{
+    display:inline-block;
+    float:none;
+  }
+
+  .bar{
+    position:relative;
+  }
+
+  .bar-wrap{
+    margin-bottom:0;
+    }
+  }
+
+@media screen and (max-width: 835px)  {
+#footer ul li {
+  float:none;
+  width:auto;
+  }
+}
+
+@media screen and (max-width: 768px)  {
+  .links li {
+    margin-right:5px;
+    }
+  }
+
+  #top { /* định dạng cho nut back to top*/
+    clear: both;
+  	right: 10px;
+  	bottom: 200px;
+  	display: none;
+  }
