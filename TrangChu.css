@@ -1,7 +1,7 @@
-@import url('http://weloveiconfonts.com/api/?family=zocial');
+@import url(http://weloveiconfonts.com/api/?family=zocial);
 *{
     margin:0;
-   padding:0;
+    padding:0;
 }
 
 @font-face{
@@ -28,18 +28,30 @@
 }
 html,body{
   color: red;
-  font-size: 19px;
-  margin: 0;
-  padding: 1px;
+  font-size: 20px;
+  margin: auto;;
   height: 100%;
   width: 100%;
   max-width: 100%;
   font-family: Times New Roman ;
 }
+#header{
+  margin: auto;
+  font-size: 19px;
+  font-family: sans-serif;
+  width: 100%;
+}
+.navbar-header{
+  margin-left: 50px;
+}
 .image{
   margin: auto;
-  left: 20px;
+
   position: absolute;
+}
+.slides{
+  margin: auto;
+
 }
 .margin{
   margin: 12px;
@@ -53,19 +65,20 @@ html,body{
   border-color: white;
 }
 #content{
-  margin: 0 auto;
-  font-family:arial;
-
+  width: 100%;
+  margin: auto;
+  font-family: arial;
+  clear: both;
 }
 .content1{
+
   width: 100%;
-  height: 600px;
-  background-image: url('AboutSaveSonDoong.png');
+  height: 800px;
+  background-image: url('image/AboutSaveSonDoong.png');
+
 }
-.left{
-  width:40%;
-  margin: auto;
-  float: left;
+.col-sm-6{
+  margin: 150px auto auto 0;
   text-align: center;
 }
 h2.dop{
@@ -75,9 +88,10 @@ h2.dop{
   font-size: 50px;
   color: #40ff00;
   text-align: center;
+
 }
 p.text1{
-  margin: auto;
+  margin: 30px auto auto 30px;
   left: 50px;
   text-align: center;
 }
@@ -97,20 +111,28 @@ a.btn{
   color: white;
   border: 3px solid green;
 }
+.slides{
+  margin: auto;
+  width:1349px;
+  height:650px;
+}
+.container-fluid{
+  position:relative;
+  width: 100%;
+  margin: auto;
+}
 .img{
   width: 600px;
   height: 400px;
 }
-.right {
+.col-sm-6 {
   text-align: center;
-  margin: auto;
-  width: 50%;
-  float: right;
+  margin: 190px auto auto 0;
 }
 .content2{
   width: 100%;
-  height: 600px;
-  text-align: center;
+  height: 720px;
+
 }
 h2.the1{
   color:  #40ff00;
@@ -120,18 +142,15 @@ h2.the1{
   font-family: arial;
   text-align: center;
 }
-.left1{
-  width: 50%;
-  float: left;
+#left1{
+  margin: 50px 0 0 0;
   text-align: center;
 }
-.right1{
-  width:50%;
-  margin: auto;
-  float: right;
+#right1{
+  margin: 50px 0 0 0;
 }
 p.text2{
-  margin: auto;
+  margin: 20px auto auto 20px;
   color: black;
   text-align: left;
 }
@@ -139,19 +158,23 @@ p.text2{
   width: 100%;
   height: 700px;
   text-align: center;
-  background-image: url('AboutSaveSonDoong.png');
+  background-image: url('image/AboutSaveSonDoong.png');
 }
 h2.the2{
+  width: 100%;
   color:  #40ff00;
   font-size: 50px;
   border-bottom: green;
   text-transform: uppercase;
   font-family: Times New Roman;
   text-align: center;
+  height: 100px;
 }
-.left2{
-  width:40%;
-  margin: auto;
+.row{
+
+}
+#left2{
+  margin: 55px auto;
   text-align: center;
   float: left;
 }
@@ -160,12 +183,13 @@ p.text3{
   color: #000080;
   text-align: center;
 }
-.right2{
-  width: 50%;
+#right2{
+  margin: auto;
   float: right;
   text-align: center;
 }
 .img1{
+  margin: 50px auto;
   text-align: center;
 }
 
@@ -193,6 +217,7 @@ a{
 }
 
 #footer{
+    margin: 0 0 0 0;
     background-color:#2E3639;
     position:relative;
     z-index:1;
@@ -283,7 +308,7 @@ a{
 
     .bar{
         position:relative;
-   }
+    }
 
     .bar-wrap{
         margin-bottom:0;
@@ -302,3 +327,4 @@ a{
         margin-right:5px;
     }
 }
+
