@@ -5,9 +5,6 @@
 	<title>Ảnh</title>
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/layout.css">
 	<link rel="stylesheet" href="hover-min.css">
 	<link rel="stylesheet" href="bootstrap.min.css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -19,6 +16,7 @@
 	<div class="container-fluid">
 
 		<div id="header">
+			<div class="row">
 				<nav class="navbar navbar-fixed-top none-color" role="navigation" id="navfix">
 					<div class="container">
 						<div class="navbar-header">
@@ -40,7 +38,7 @@
 									<a href="#" class="hvr-underline-from-center" style="color: #00ccff">Ảnh & Bộ Sưu Tập</a>
 								</li>
 								<li>
-									<a href="#" class="hvr-underline-from-center" style="color: #00ccff">video</a>
+									<a href="#" class="hvr-underline-from-center" style="color: #00ccff">Video</a>
 								</li>
 								<li>
 									<a href="#" class="hvr-underline-from-center" style="color: #00ccff">Dự án & Hành Động</a>
@@ -49,22 +47,37 @@
 						</div>
 					</div>
 				</nav>
-					<img name="slide" width="1349px" height="600px" src="anh2.jpg">
+					<img name="slide" width="1349px" height="600px">
 			</div>
 
-		<ul id="filters" class="clearfix">
-			<li><span class="filter active" data-filter=".toancanh, .diachat, .hesinhthai, .bandoong, .chinhphuc">TẤT CẢ</span></li>
-			<li><span class="filter" data-filter=".toancanh">TOÀN CẢNH</span></li>
-			<li><span class="filter" data-filter=".diachat">ĐỊA CHẤT</span></li>
-			<li><span class="filter" data-filter=".hesinhthai">HỆ SINH THÁI</span></li>
-			<li><span class="filter" data-filter=".bandoong">BẢN ĐOÒNG</span></li>
-			<li><span class="filter" data-filter=".chinhphuc">CHINH PHỤC SƠN ĐOÒNG</span></li>
-		</ul>
+		</div><!--đóngheadẻ-->
+
+
+
+				<!--khai báo menu lọc ảnh-->
+					<div id="filters" class="clearfix">
+						<div class="row">
+						<ul>
+							<li><span class="filter active" data-filter=".toancanh, .diachat, .hesinhthai, .bandoong, .chinhphuc">TẤT CẢ</span></li>
+							<li><span class="filter" data-filter=".toancanh">TOÀN CẢNH</span></li>
+							<li><span class="filter" data-filter=".diachat">ĐỊA CHẤT</span></li>
+							<li><span class="filter" data-filter=".hesinhthai">HỆ SINH THÁI</span></li>
+							<li><span class="filter" data-filter=".bandoong">BẢN ĐOÒNG</span></li>
+							<li><span class="filter" data-filter=".chinhphuc">CHINH PHỤC SƠN ĐOÒNG</span></li>
+						</ul>
+					</div>
+				</div>
+
+		<!--phần danh sách khi click chọn menu -->
 		<div id="portfoliolist">
 
+			<!--list ảnh khi click Bản Đoòng-->
 			<div class="portfolio bandoong" data-cat=".bandoong">
 				<div class="portfolio-wrapper">
-          <img src="https://dantricdn.com/thumb_w/640/2017/ban-doong-1-1493263996406.jpg" alt="">
+					<a href="https://dantricdn.com/thumb_w/640/2017/ban-doong-1-1493263996406.jpg" data-lightbox="lb1">
+							<img src="https://dantricdn.com/thumb_w/640/2017/ban-doong-1-1493263996406.jpg" alt="">
+					</a>
+
 					<div class="label">
 						<div class="label-text">
 							<p class="text-title">Đường đến bản Đoòng</p>
@@ -88,6 +101,33 @@
 			</div>
 		</div>
 
+		<div class="portfolio bandoong" data-cat="bandoong">
+			<div class="portfolio-wrapper">
+				<img src="https://dantricdn.com/thumb_w/640/2017/ban-doong-8-1493263996418.jpg" alt="" />
+				<div class="label">
+					<div class="label-text">
+						<p class="text-title">Người dân và trẻ em bản Đoòng</p>
+						<span class="text-category">BẢN ĐOÒNG</span>
+					</div>
+					<div class="label-bg"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="portfolio bandoong" data-cat="bandoong">
+			<div class="portfolio-wrapper">
+				<img src="https://4.bp.blogspot.com/-0k0ayM2n9xg/VGm4HJtcDiI/AAAAAAACA6U/R1NkKA6An1k/s1600/2.jpg" alt="" />
+				<div class="label">
+					<div class="label-text">
+						<p class="text-title">Đường đến bản Đoòng</p>
+						<span class="text-category">BẢN ĐOÒNG</span>
+					</div>
+					<div class="label-bg"></div>
+				</div>
+			</div>
+		</div>
+
+			<!--list ảnh khi click Toàn Cảnh -->
 			<div class="portfolio toancanh" data-cat="toancanh">
 				<div class="portfolio-wrapper">
 					<img src="http://anhnendep.net/wp-content/uploads/2016/02/hang-dong-son-doong-06.jpg" alt="" />
@@ -95,20 +135,6 @@
 						<div class="label-text">
 							<p class="text-title">Hồ tự nhiên trong hang Sơn Đoòng</p>
 							<span class="text-category">TOÀN CẢNH</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="portfolio chinhphuc" data-cat="chinhphuc">
-				<div class="portfolio-wrapper">
-					<img src="https://dantricdn.com/thumb_w/640/2017/duongvaohangen-1497453473560.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<p class="text-title">Đường vào hang Én</p>
-							<span class="text-category">CHINH PHỤC</span>
 						</div>
 						<div class="label-bg"></div>
 					</div>
@@ -133,34 +159,8 @@
 					<img src="https://znews-photo-td.zadn.vn/w960/Uploaded/ngtmns/2016_05_09/8.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<p class="text-title">chiêm ngưỡng bầu trời đầy sao Ở hố Sụt </p>
+							<p class="text-title">Chiêm ngưỡng bầu trời đầy sao Ở hố Sụt </p>
 							<span class="text-category">TOÀN CẢNH</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>
-
-			<div class="portfolio diachat" data-cat="diachat">
-				<div class="portfolio-wrapper">
-					<img src="https://i-dulich.vnecdn.net/2018/01/20/4-Ho-nu-o-c-du-o-i-cha-n-cu-a-hang-So-n-Doo-ng-1516391401_680x0.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Hồ nước dưới chân cửa hang Sơn Đoòng</a>
-							<span class="text-category">ĐỊA CHẤT</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>
-
-			<div class="portfolio bandoong" data-cat="bandoong">
-				<div class="portfolio-wrapper">
-					<img src="https://dantricdn.com/thumb_w/640/2017/ban-doong-8-1493263996418.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Người dân và trẻ em bản Đoòng</a>
-							<span class="text-category">BẢN ĐOÒNG</span>
 						</div>
 						<div class="label-bg"></div>
 					</div>
@@ -172,7 +172,7 @@
 					<img src="https://znews-photo-td.zadn.vn/w960/Uploaded/jaroin/2015_12_18/6.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">Con người trở nên nhỏ bé trong hang Sơn Đoàng</a>
+							<p class="text-title">Con người trở nên nhỏ bé trong hang Sơn Đoàng</p>
 							<span class="text-category">TOÀN CẢNH</span>
 						</div>
 						<div class="label-bg"></div>
@@ -185,7 +185,7 @@
 					<img src="http://dulichkhatvongviet.com/wp-content/uploads/2015/05/hang-son-doong-quang-binh.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">Chiều cao hang Sơn Đoòng có thể chứa được tòa nhà 40 tầng</a>
+							<p class="text-title">Chiều cao hang Sơn Đoòng có thể chứa được tòa nhà 40 tầng</p>
 							<span class="text-category">TOÀN CẢNH</span>
 						</div>
 						<div class="label-bg"></div>
@@ -193,26 +193,14 @@
 				</div>
 			</div>
 
-			<div class="portfolio diachat" data-cat="diachat">
-				<div class="portfolio-wrapper">
-					<img src="http://st.galaxypub.vn/staticFile/Subject/2014/11/07/331143/hang-son-doong-nhung-gia-tri-chua-ai-tung-biet_1214720.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title"></a>
-							<span class="text-category">ĐỊA CHẤT</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>
 
-			<div class="portfolio bandoong" data-cat="bandoong">
+			<div class="portfolio toancanh" data-cat="toancanh">
 				<div class="portfolio-wrapper">
-					<img src="https://4.bp.blogspot.com/-0k0ayM2n9xg/VGm4HJtcDiI/AAAAAAACA6U/R1NkKA6An1k/s1600/2.jpg" alt="" />
+					<img src="https://secure.i.telegraph.co.uk/multimedia/archive/02948/caves-2_2948990k.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">Đường đến bản Đoòng</a>
-							<span class="text-category">BẢN ĐOÒNG</span>
+							<p class="text-title">Cảnh quan tuyệt mĩ lấp lánh ánh sáng</p>
+							<span class="text-category">TOÀN CẢNH</span>
 						</div>
 						<div class="label-bg"></div>
 					</div>
@@ -224,7 +212,7 @@
 					<img src="http://www.vietsuntour.com.vn/profiles/vietsuntourcomvn/uploads/attach/1485165982_thung-nang1.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">Vẻ đẹp tuyệt tác của tạo hóa xứng đáng được bảo tồn</a>
+							<p class="text-title">Vẻ đẹp tuyệt tác của tạo hóa xứng đáng được bảo tồn</p>
 							<span class="text-category">TOÀN CẢNH</span>
 						</div>
 						<div class="label-bg"></div>
@@ -237,8 +225,22 @@
 					<img src="http://vietnamtoi.com/wp-content/uploads/2016/05/20150407154115-nhung-hinh-anh-ngoan-muc-cua-hang-son-doong-traveltimes-1-600x0.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">Những hình ảnh ngoạn mục của hang động Sơn Đoòng trên báo nước ngoài</a>
+							<p class="text-title">Những hình ảnh ngoạn mục của hang động Sơn Đoòng trên báo nước ngoài</p>
 							<span class="text-category">TOÀN CẢNH</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<!--list ảnh khi click Chinh Phục -->
+			<div class="portfolio chinhphuc" data-cat="chinhphuc">
+				<div class="portfolio-wrapper">
+					<img src="https://dantricdn.com/thumb_w/640/2017/doicatcuoihang-1497455880865.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<p class="text-title">Đồi cát cuối hang của một màu vàng kỳ ảo</p>
+							<span class="text-category">CHINH PHỤC</span>
 						</div>
 						<div class="label-bg"></div>
 					</div>
@@ -247,10 +249,23 @@
 
 			<div class="portfolio chinhphuc" data-cat="chinhphuc">
 				<div class="portfolio-wrapper">
-					<img src="https://dantricdn.com/thumb_w/640/2017/doicatcuoihang-1497455880865.jpg" alt="" />
+					<img src="https://image.thanhnien.vn/1600/uploaded/ngocthanh/2016_03_02/son-10_jfdb.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">Đồi cát cuối hang của một màu vàng kỳ ảo</a>
+							<p class="text-title">Chạm cửa 'thiên đường'</p>
+							<span class="text-category">HINH PHỤC</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio chinhphuc" data-cat="chinhphuc">
+				<div class="portfolio-wrapper">
+					<img src="https://dantricdn.com/thumb_w/640/2017/duongvaohangen-1497453473560.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<p class="text-title">Đường vào hang Én</p>
 							<span class="text-category">CHINH PHỤC</span>
 						</div>
 						<div class="label-bg"></div>
@@ -258,26 +273,27 @@
 				</div>
 			</div>
 
-			<div class="portfolio hesinhthai" data-cat="hesinhthai">
+			<div class="portfolio chinhphuc" data-cat="chinhphuc">
 				<div class="portfolio-wrapper">
-					<img src="https://i-dulich.vnecdn.net/2013/09/18/son-doong-up-110104-02-1379492060_680x0.jpg" alt="" />
+					<img src="https://dantricdn.com/thumb_w/640/2017/hokhanh-1497453141008.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">Một loại cây trong hang</a>
-							<span class="text-category">HỆ SINH THÁI</span>
+							<p class="text-title">Anh Hồ Khanh-Người phát hiện ra Sơn Đoòng và ông Howard</p>
+							<span class="text-category">CHINH PHỤC</span>
 						</div>
 						<div class="label-bg"></div>
 					</div>
 				</div>
 			</div>
 
-			<div class="portfolio diachat" data-cat="diachat">
+			<!--list ảnh khi click Hệ Sinh Thái -->
+			<div class="portfolio hesinhthai" data-cat="hesinhthai">
 				<div class="portfolio-wrapper">
-					<img src="http://image.baophapluat.vn/w620/Uploaded/nguyennhumai/2017_05_19/1_YDSM.jpg" alt="" />
+					<img src="https://i-dulich.vnecdn.net/2013/09/18/son-doong-up-110104-02-1379492060_680x0.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">Lắp thang vượt nhũ triệu năm tuổi/a>
-							<span class="text-category">ĐIA CHẤT</span>
+							<p class="text-title">Một loại cây trong hang</p>
+							<span class="text-category">HỆ SINH THÁI</span>
 						</div>
 						<div class="label-bg"></div>
 					</div>
@@ -289,7 +305,7 @@
 					<img src="http://viewnews.vn/wp-content/uploads/2017/12/ve-dep-cua-hang-Son-Doong-9.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">Dòng sông Rào Thương chảy quanh Sơn Đoòng</a>
+							<p class="text-title">Dòng sông Rào Thương chảy quanh Sơn Đoòng</p>
 							<span class="text-category">HỆ SINH THÁI</span>
 						</div>
 						<div class="label-bg"></div>
@@ -302,7 +318,7 @@
 					<img src="https://dantricdn.com/thumb_w/640/2017/rungtronghang-1497455654893.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">Rừng ở hố Sụt 2 trong hang Sơn Đoòn</a>
+							<p class="text-title">Rừng ở hố Sụt 2 trong hang Sơn Đoòn</p>
 							<span class="text-category">HỆ SINH THÁI</span>
 						</div>
 						<div class="label-bg"></div>
@@ -310,38 +326,13 @@
 				</div>
 			</div>
 
-			<div class="portfolio chinhphuc" data-cat="chinhphuc">
-				<div class="portfolio-wrapper">
-					<img src="https://image.thanhnien.vn/1600/uploaded/ngocthanh/2016_03_02/son-10_jfdb.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Chạm cửa 'thiên đường'</a>
-							<span class="text-category">HINH PHỤC</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>
-
-			<div class="portfolio chinhphuc" data-cat="chinhphuc">
-				<div class="portfolio-wrapper">
-					<img src="https://dantricdn.com/thumb_w/640/2017/hokhanh-1497453141008.jpg" alt="" />
-					<div class="label">
-						<div class="label-text">
-							<a class="text-title">Anh Hồ Khanh-Người phát hiện ra Sơn Đoòng và ông Howard</a>
-							<span class="text-category">CHINH PHỤC</span>
-						</div>
-						<div class="label-bg"></div>
-					</div>
-				</div>
-			</div>
 
 			<div class="portfolio hesinhthai" data-cat="hesinhthai">
 				<div class="portfolio-wrapper">
 					<img src="http://st.galaxypub.vn/staticFile/Subject/2015/12/28/0_281538694.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">Khu rừng ở bên trong hang Sơn Đoòng </a>
+							<p class="text-title">Khu rừng ở bên trong hang Sơn Đoòng </p>
 							<span class="text-category">HỆ SINH THÁI</span>
 						</div>
 						<div class="label-bg"></div>
@@ -354,7 +345,7 @@
           <img src="http://media.baodautu.vn/Images/phongvien/2016/08/09/hangdong8.jpg" alt="" />
           <div class="label">
             <div class="label-text">
-              <a class="text-title">Dòng sông ngầm bên trong Sơn Đoòng</a>
+              <p class="text-title">Dòng sông ngầm bên trong Sơn Đoòng</p>
               <span class="text-category">HỆ SINH THÁI</span>
             </div>
             <div class="label-bg"></div>
@@ -368,8 +359,23 @@
 					<img src="https://i.ytimg.com/vi/UWMp2bgKHcQ/maxresdefault.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">Thảm thực vật trong hang Sơn Đoòng</a>
+							<p class="text-title">Thảm thực vật trong hang Sơn Đoòng</p>
 							<span class="text-category">HỆ SINH THÁI</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- list ảnh khi click Địa CHất -->
+			<div class="portfolio diachat" data-cat="diachat">
+				<div class="portfolio-wrapper">
+					<img src="https://i-dulich.vnecdn.net/2018/01/20/4-Ho-nu-o-c-du-o-i-cha-n-cu-a-hang-So-n-Doo-ng-1516391401_680x0.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<p class="text-title">Hồ nước dưới chân cửa hang Sơn Đoòng</p>
+							<span class="text-category">ĐỊA CHẤT</span>
 						</div>
 						<div class="label-bg"></div>
 					</div>
@@ -381,7 +387,7 @@
 					<img src="https://www.poyi.org/69/photos/02/69-02-PeteC-A-05.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">thực thể địa chất đặc trưng của hang Sơn Đoòng </a>
+							<p class="text-title">thực thể địa chất đặc trưng của hang Sơn Đoòng </p>
 							<span class="text-category">ĐỊA CHẤT</span>
 						</div>
 						<div class="label-bg"></div>
@@ -389,39 +395,50 @@
 				</div>
 			</div>
 
-			<div class="portfolio toancanh" data-cat="toancanh">
+			<div class="portfolio diachat" data-cat="diachat">
 				<div class="portfolio-wrapper">
-					<img src="https://secure.i.telegraph.co.uk/multimedia/archive/02948/caves-2_2948990k.jpg" alt="" />
+					<img src="http://image.baophapluat.vn/w620/Uploaded/nguyennhumai/2017_05_19/1_YDSM.jpg" alt="" />
 					<div class="label">
 						<div class="label-text">
-							<a class="text-title">Cảnh quan tuyệt mĩ lấp lánh ánh sáng</a>
-							<span class="text-category">TOÀN CẢNH</span>
+							<p class="text-title">Lắp thang vượt nhũ triệu năm tuổi</p>
+							<span class="text-category">ĐIA CHẤT</span>
 						</div>
 						<div class="label-bg"></div>
 					</div>
 				</div>
 			</div>
 
-		</div>
+			<div class="portfolio diachat" data-cat="diachat">
+				<div class="portfolio-wrapper">
+					<img src="http://st.galaxypub.vn/staticFile/Subject/2014/11/07/331143/hang-son-doong-nhung-gia-tri-chua-ai-tung-biet_1214720.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<p class="text-title">Bãi sỏi rộng lớn trong hang</p>
+							<span class="text-category">ĐỊA CHẤT</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- đóng portfoliolist -->
 		<a href="#" id="top"><img src="./scrolltop.png" /></a>
 
 		<div id="footer">
-			<div class="bar">
-				<div class="row">
+			<div class="row">
+				<div class="bar">
 					<div class="col-sm-5">
 						<ul class="links">
-						 <li><a href="#">Trang chủ</a></li>
-						 <li><a href="#">Thông tin</a></li>
-						 <li><a href="#">Ảnh</a></li>
-						 <li><a href="#">Video</a></li>
-						 <li><a href="#">Dự án</a></li>
-						 <li><a href="#">Hành động</a></li>
+						 <li><a href="trangchu.html">Trang chủ</a></li>
+						 <li><a href="thongtin.html">Tổng quan</a></li>
+						 <li><a href="anh.html">Ảnh</a></li>
+						 <li><a href="video.html">Video</a></li>
+						 <li><a href="#">Dự án&Hành động</a></li>
 					 </ul>
 					</div>
 
 					<div class="col-sm-7">
 						<div class="social">
-							<a href="#" class="fb">
+							<a href="https://www.facebook.com/Save-Son-%C4%90o%C3%B2ng-182771025675013/" class="fb">
 								<span data-icon="f"  class="icon"></span>
 								<span class="info">
 									<span class="follow">Become a fan Facebook</span>
@@ -429,7 +446,7 @@
 								<span>
 							</a>
 
-							<a href="#" class="y">
+							<a href="https://www.youtube.com/channel/UCb-1-s6lb7TThX-7eoz1n3w" class="y">
 								<span data-icon="U" class="icon"></span>
 								<span class="info">
 									<span class="follow">Follow us Youtobe</span>
@@ -437,7 +454,7 @@
 								</span>
 							</a>
 
-							<a href="#" class="tw">
+							<a href="https://twitter.com/savesondoong" class="tw">
 								<span data-icon="T" class="icon"></span>
 								<span class="info">
 									<span class="follow">Follow us Twitter</span>
@@ -448,10 +465,15 @@
 					</div>
 					<div class="clear"></div>
 					<div class="copyright">&copy; Bản quyền năm 2018 thuộc về #savesondong</div>
-			</div>
-		</div>
-	</div>
+			</div><!--đóng row-->
+		</div><!--đóng bar-->
+	</div><!--đóng footer-->
 	</div> <!--dóng container-fluid-->
+
+	<script src="anh.js"></script>
+	<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+	<script src="jquery.lightroom.js"></script>
 	<script src="jquery-3.3.1.js"></script>
   <script src="bootstrap.min.js"></script>
 </body>
