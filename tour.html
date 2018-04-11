@@ -1,352 +1,473 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Tour</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  	<link rel="stylesheet" href="hover-min.css">
-    <link rel="stylesheet" href="tour.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-  </head>
-  <body>
-    <div class="container-fluid">
-        <div id="section1">
-          <div class="row">
-            <div class="col-sm-8">
-              <div class="tour">
-                <p><b>Bạn sẽ được tham gia tour thám hiểu độc đáo bậc nhất trong vòng 4 ngày 3 đêm:
-                  đi xuyên hang lớn nhất thế giới – Hang Sơn Đoòng bằng cách chinh phục Bức tường Việt Nam.
-                  Chuyến đi đưa bạn sâu vào Vườn Quốc gia Phong Nha – Kẻ Bàng để thám hiểm những điều ẩn giấu đầy kì bí của thiên nhiên.</b></p>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<title>Ảnh</title>
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="hover-min.css">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+  <link rel="stylesheet" href="anh.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div id="header">
+			<div class="row">
+				<nav class="navbar navbar-fixed-top none-color" role="navigation" id="navfix">
+					<div class="container">
+						<div class="navbar-header">
+							<a href="#"id="image" ><img src ="sond.png" style="width:100px;" ></a>
+						</div>
+						<div class="margin"></div>
+						<div class="collapse navbar-collapse"  id="main menu">
+							<ul class="nav navbar-nav ">
+								<li>
+									<a href="#"class="hvr-underline-from-center" style="color: #00ccff">Trang Chủ</a>
+								</li>
+								<li>
+									<a href="thongtin.html" class="hvr-underline-from-center" style="color: #00ccff">Tổng Quan</a>
+								</li>
+								<li>
+									<a href="#" class="hvr-underline-from-center" style="color: #00ccff">Khám Phá Chuyến Đi</a>
+								</li>
+								<li>
+									<a href="#" class="hvr-underline-from-center" style="color: #00ccff">Ảnh & Bộ Sưu Tập</a>
+								</li>
+								<li>
+									<a href="#" class="hvr-underline-from-center" style="color: #00ccff">Video</a>
+								</li>
+								<li>
+									<a href="#" class="hvr-underline-from-center" style="color: #00ccff">Dự án & Hành Động</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+					<img name="slide" width="1349px" height="600px">
+			</div>
 
-                  <p>Có hơn 25 nhân viên hỗ trợ, chuyên gia an toàn và hướng dẫn viên sẽ đưa bạn vào sâu trong núi rừng hoang dã, bắt đầu hành trình chinh phục Hang Sơn Đoòng.
-                    Bạn sẽ có cơ hội khám phá hoàn toàn Hang Sơn Đoòng, Hang Én và ghé thăm bản của đồng bào dân tộc thiểu số &#8211; Bản Đoòng.</p>
+		</div><!--đóngheadẻ-->
 
-                  <p>Chuyến tham quan bằng việc trekking vào sâu trong hang động lớn nhất thế giới sẽ là chuyến thám hiểm thật sự không giống bất cứ chuyến đi nào bạn đã trải nghiệm.
-                     Bạn đã bao giờ hình dung bên trong một hang động có thể chứa được chiếc Boeing 747 chưa? Đây thực sự là một kiệt tác tuyệt vời của thiên nhiên,
-                     ngoài sức tưởng tượng với những khối thạch nhũ, măng đá khổng lồ treo trên trần hang động hoặc mọc lên từ mặt đất, nhìn từ xa trông giống như những sinh vật ngoài hành tinh với những hình thù kỳ lạ.</p>
 
-                  <p>Một khu rừng ngay bên trong hang cùng các đám mây mờ ảo bao phủ sẽ tạo nên một khung cảnh mê hoặc.
-                    Bạn cũng sẽ có cơ hội quý giá để hiểu thêm về các khối thạch nhũ có niên đại hằng trăm triệu năm trên hành lang hóa thạch cổ đại.</p>
 
-                  <p>Đây chính là một chuyến hành trình mà từ khi bắt đầu đến khi kết thúc, bạn sẽ sử dụng dây an toàn để trèo vào cửa hang, leo lên bức tường thạch nhũ cao 90m được mệnh danh là Bức tường Việt Nam để ra khỏi hang.
-                     Bạn sẽ luôn được giám sát và hỗ trợ bởi đội ngũ an toàn của Oxalis trong suốt quá trình tham gia tour.</p>
+				<!--khai báo menu lọc ảnh-->
+					<div id="filters" class="clearfix">
+						<div class="row">
+						<ul>
+							<li><span class="filter active" data-filter=".toancanh, .diachat, .hesinhthai, .bandoong, .chinhphuc">TẤT CẢ</span></li>
+							<li><span class="filter" data-filter=".toancanh">TOÀN CẢNH</span></li>
+							<li><span class="filter" data-filter=".diachat">ĐỊA CHẤT</span></li>
+							<li><span class="filter" data-filter=".hesinhthai">HỆ SINH THÁI</span></li>
+							<li><span class="filter" data-filter=".bandoong">BẢN ĐOÒNG</span></li>
+							<li><span class="filter" data-filter=".chinhphuc">CHINH PHỤC SƠN ĐOÒNG</span></li>
+						</ul>
+					</div>
+				</div>
 
-                  <p>Chuyến thám hiểm được thiết kế với nhiều thời gian cho bạn để chụp hình và khám phá. Tuy nhiên, bạn cần phải có một sức khỏe tốt,
-                    và nhiều kinh nghiệm trekking (không cần thiết phải có các kĩ năng leo hoặc khám phá hang động).</p>
-              </div>
-            </div> <!--đóng col-sm-8-->
-            <div class="col-sm-4">
-              <div class="vertical-menu">
-                  <a href="#section" class="active"><b>MỤC LỤC</b></a>
-                  <a href="#section1"><b>GIỚI THIỆU</b></a>
-                  <a href="#section2"><b>LỊCH TRÌNH</b></a>
-                  <a href="#section3"><b>MỨC ĐỘ MẠO HIỂM</b></a>
-                  <a href="#section4"><b>THƯ VIỆN ẢNH</b></a>
-              </div>
-            </div><!--đóng col-sm-4-->
-          </div> <!--đóng row-->
-        </div><!-- đóng section1 -->
+		<!--phần danh sách khi click chọn menu -->
+				<div id="portfoliolist">
 
-    <div id="section2">
-      <div class="row" >
-        <h2>LỊCH TRÌNH</h2>
-        <div class="col-sm-3">
-            <div class="tour-facts">
-            <p class="facts-title">Thông tin cơ bản</p>
-				       <ul class="facts-list">
-	                <li><p><span class="fact-title"><b>Hoạt động:</b> </span>từ tháng 1 đến tháng 8 (đóng từ tháng 9 đến tháng 12)</p></li>
-									<li><p><span class="fact-title"><b>Thời lượng:</b> </span>4 ngày/3 đêm (thêm 2 đêm ở khách sạn)</p></li>
-									<li><p><span class="fact-title"><b>Mức độ mạo hiểm:</b> </span>Khó (30 km+) và chỉ dành cho khách đủ thể lực</p></li>
-									<li><p><span class="fact-title"><b>Số lượng tour:</b> </span>Khởi hành hàng tuần</p></li>
-									<li><p><span class="fact-title"><b>Số lượng khách:</b> </span>tối đa 10 khách/chuyến</p></li>
-									<li><p><span class="fact-title"><b>Giới hạn độ tuổi:</b> </span>18 tuổi trở lên</p></li>
-									<li><span class="fact-title"><b>Giá:</b> </span>68,700,000 VND hoặc $3000/khách (Đã bao gồm $660 chi phí vé vào Vườn)</p></li>
-								</ul>
-              </div><!-- đóng tour-facts -->
-          </div>
+					<!--list ảnh khi click Bản Đoòng-->
+					<div class="portfolio bandoong" data-cat=".bandoong">
+						<div class="portfolio-wrapper">
+							<img src="https://dantricdn.com/thumb_w/640/2017/ban-doong-1-1493263996406.jpg" alt="">
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Đường đến bản Đoòng</p>
+									<span class="text-category">BẢN ĐOÒNG</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-          <div class="col-sm-9">
-            <div class="tour-pubblic">
-            <div class="tab">
-              <button class="tablinks" onclick="openDay(event, 'NgayGT')" id="defaultOpen"><b>NGÀY GIỚI THIỆU</b></button>
-              <button class="tablinks" onclick="openDay(event, 'Ngay1')"><b>NGÀY 1</b></button>
-              <button class="tablinks" onclick="openDay(event, 'Ngay2')"><b>NGÀY 2</b></button>
-              <button class="tablinks" onclick="openDay(event, 'Ngay3')"><b>NGÀY 3</b></button>
-              <button class="tablinks" onclick="openDay(event, 'Ngay4')"><b>NGÀY 4</b></button>
-              <button class="tablinks" onclick="openDay(event, 'NgayC')"><b>NGÀY CUỐI</b></button>
-            </div>
+				<div class="portfolio bandoong" data-cat=".bandoong">
+					<div class="portfolio-wrapper">
+		        <img src="http://4.bp.blogspot.com/--orsWA4vcNo/VGm7-9cAOMI/AAAAAAACA8Y/Vmt1BKgGCbY/s1600/18.jpg" alt="">
+						<div class="label">
+							<div class="label-text">
+								<p class="text-title">Những vách núi dựng đứng bao quanh bản</p>
+								<span class="text-category">BẢN ĐOÒNG</span>
+							</div>
+							<div class="label-bg"></div>
+						</div>
+					</div>
+				</div>
 
-              <div id="NgayGT" class="tabcontent">
-                <h3>Đồng Hới - Phổ biến thông tin an toàn - Phong Nha</h3>
-                <p>Bạn nên có mặt Đồng Hới muộn nhất lúc 14:00 trong ngày này. Nhân viên Oxalis sẽ đón bạn tại ga hoặc sân bay và đưa về khách sạn Oxalis Home hoặc Hồ Khanh Homestay tại Phong Nha.
-                  Bạn sẽ có thời gian để nghỉ ngơi, thư giãn hoặc tham quan 1 vòng xung quanh Phong Nha. (Lưu ý: Ăn sáng và ăn trưa ngày đầu tiên này do khách tự lo)</p>
+				<div class="portfolio bandoong" data-cat="bandoong">
+					<div class="portfolio-wrapper">
+						<img src="https://dantricdn.com/thumb_w/640/2017/ban-doong-8-1493263996418.jpg" alt="" />
+						<div class="label">
+							<div class="label-text">
+								<p class="text-title">Người dân và trẻ em bản Đoòng</p>
+								<span class="text-category">BẢN ĐOÒNG</span>
+							</div>
+							<div class="label-bg"></div>
+						</div>
+					</div>
+				</div>
 
-                <p>Khoảng 17:30-18:00, gặp mặt chuyên gia an toàn hướng dẫn viên và các thành viên khác trong đoàn tại văn phòng Oxalis để được phổ biến các thông tin an toàn cũng như nhận trang thiết bị cho hành trình.
-                  Buổi phổ biến thông tin an toàn là bắt buộc. Bất kể ai không tham gia buổi giới thiệu an toàn có thể bị từ chối tham gia tour và không được hoàn lại các chi phí đã thanh toán. Bạn nên thu xếp/phân chia hành lý sẵn sàng trước buổi gặp mặt.
-                  Mỗi người sẽ được phát 1 túi nylon để gói quần áo và các vật dụng cần thiết để mang theo tour. Chúng tôi sẽ thu gom túi hành lý này và chuyển đến đội mang vác hành lý ngay sau buổi họp đoàn để chuẩn bị cho ngày hôm sau.
-                  Bạn sẽ nhận lại tất cả các hành lý của mình vào mỗi tối tại điểm cắm trại trong hang. Vì vậy, những đồ dùng mà bạn thấy cần thiết sử dụng vào ban ngày, bạn nên giữ chúng ở một cái ba lô nhỏ riêng biệt và luôn mang theo bên mình (ví dụ như máy ảnh, điện thoại, kem chống nắng, chân máy ảnh..).  Xin lưu ý du khách sẽ phải ký Phiếu Miễn trừ trách nhiệm trong buổi giới thiệu và hướng dẫn an toàn.
-                  Sau đó, thành viên đoàn thám hiểm sẽ dùng bữa tối tại nhà hàng Expedition.</p>
+				<div class="portfolio bandoong" data-cat="bandoong">
+					<div class="portfolio-wrapper">
+						<img src="https://4.bp.blogspot.com/-0k0ayM2n9xg/VGm4HJtcDiI/AAAAAAACA6U/R1NkKA6An1k/s1600/2.jpg" alt="" />
+						<div class="label">
+							<div class="label-text">
+								<p class="text-title">Đường đến bản Đoòng</p>
+								<span class="text-category">BẢN ĐOÒNG</span>
+							</div>
+							<div class="label-bg"></div>
+						</div>
+					</div>
+				</div>
 
-                <p>Hãy tận hưởng một đêm ngon giấc tại khách sạn trước khi bắt đầu hành trình Thám Hiểm Sơn Đoòng với 4 ngày 3 đêm đầy thử thách và hấp dẫn trong rừng sâu hang tối!</p>
-              </div><!--đong id NgayGT -->
+					<!--list ảnh khi click Toàn Cảnh -->
+					<div class="portfolio toancanh" data-cat="toancanh">
+						<div class="portfolio-wrapper">
+							<img src="http://anhnendep.net/wp-content/uploads/2016/02/hang-dong-son-doong-06.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Hồ tự nhiên trong hang Sơn Đoòng</p>
+									<span class="text-category">TOÀN CẢNH</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-              <div id="Ngay1" class="tabcontent">
-                <h3>Phong Nha – Bản Đoòng – Hang Én</h3>
-                <p>Đoàn ăn sáng tại khách sạn lúc 8:00. Hướng dẫn viên và xe sẽ đón đoàn tại khách sạn lúc 9:00 và bắt đầu cho chuyến thám hiểm 4 ngày 3 đêm.
-                  Hành lý cá nhân và các đồ giá trị không mang theo trong tour sẽ được ký gửi tại Văn phòng Oxalis trước khi xuất phát.</p>
-                <p>Đoàn sẽ mất khoảng 45 phút dọc theo đường 20 Quyết Thắng – thuộc đường mòn Hồ Chí Minh đến điểm đi bộ. Từ đây, mọi người bắt đầu khoảng 1 giờ đi bộ xuống dốc núi. Thêm nửa giờ đi bộ dọc theo con suối dưới chân dốc núi, đoàn sẽ dừng chân tại Bản Đoòng – bản dân tộc thiểu số người Bru Vân Kiều sống tách biệt trong rừng sâu, một điểm nhấn không thể bỏ qua trong chuyến hành trình. Ở đây bạn sẽ có cơ hội tìm hiểu và khám phá những nét đặc sắc, độc đáo trong đời sống văn hoá của họ trong thời gian nghỉ ngơi và thưởng thức bữa trưa bên cạnh con suối nhỏ ven rừng.</p>
-                <p>Sau khi ăn trưa và nghỉ ngơi, bạn sẽ tiếp tục đi bộ dọc theo con suối thêm khoảng 2 giờ đồng hồ dưới ánh nắng buổi trưa với rất ít bóng râm. Bạn sẽ có nhiều lần phải lội qua suối do đó hãy chuẩn bị tinh thần cho việc giày và quần bị ướt suốt cả ngày. Vào mùa hè, nước suối sẽ ngập đến đầu gối. Bạn không nên đi những loại giày chống thấm (ví dụ như các giày hiệu hiệu Goretex) vì nó sẽ giữ nước và ẩm bên trong giày gây cảm giác khó chịu.</p>
-                <p>Đi dọc theo hết con suối bạn sẽ đến cửa Hang Én, nơi cư trú của hàng vạn con chim én. Tại đây, bạn sẽ được cung cấp đèn đội đầu, và tiếp tục đi bộ khoảng 20 – 30 phút vượt qua các khối đá để đến điểm cắm trại đầu tiên bên trong lòng Hang Én. Đoàn sẽ tập kết tại điểm cắm trại trước 3 giờ chiều và có thể bạn sẽ thích thú với việc tắm suối, bơi lội tại dòng sông ngầm chảy qua Hang Én. Sau bữa tối đầu tiên cùng với đoàn, bạn sẽ có cơ hội chụp lại những bức ảnh tuyệt vời tại khu cắm trại có một không hai trong lòng hang động này.</p>
-                <p><i>Bất cứ du khách nào không thể hoàn thành một trong các chặng trong ngày đầu tiên một cách dễ dàng sẽ phải quay lại Phong Nha và không được phép tiếp tục tham gia chuyến đi. Đội ngũ dẫn tour sẽ là người đưa ra quyết định để đảm bảo an toàn cho cá nhân bạn và cho đoàn. Mọi chi phí đã trả cho tour sẽ không được hoàn lại.</i></p>
-              </div> <!--đóng ngay1 -->
+					<div class="portfolio toancanh" data-cat="toancanh">
+						<div class="portfolio-wrapper">
+							<img src="https://znews-photo-td.zadn.vn/w960/Uploaded/ngtmns/2016_05_09/7.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Khung cảnh kỳ ảo như chốn thần tiên</p>
+									<span class="text-category">TOÀN CẢNH</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-              <div id="Ngay2" class="tabcontent">
-                <h3>Hang Én – Lối vào Hang Sơn Đoòng – Khối Bàn Chân Chó – Bãi cắm trại số 1 – Hành lang hóa thạch</h3>
-                <p>Bạn sẽ bắt đầu ngày mới bằng một bữa sáng đầy đủ dưỡng chất được chuẩn bị bởi các đầu bếp lúc 8 giờ. Ngày hôm nay sẽ là một ngày nhiều thử thách và khó khăn nên bạn hãy cố gắng ăn thật no để có thể đảm bảo năng lượng cho bản thân mình.</p>
-                <p>Đoàn sẽ khởi hành vào khoảng 9 giờ sáng bằng việc đi bộ xuyên qua Hang Én trong khoảng 30 phút để đến cửa ra, địa điểm yêu thích của các nhiếp ảnh gia bởi cảnh tượng hùng vĩ tuyệt vời. Đoàn sẽ đổ dốc ra khỏi cửa hang và băng qua sông ngay sau đó. Hãy chuẩn bị tinh thần để cùng đôi giày của bạn băng qua nhiều sông suối trong ngày hôm nay và đây cũng chính là điều làm cuộc hành trình của bạn trở nên kì thú hơn!</p>
-                <p>Chuyến hành trình sẽ được tiếp tục bằng việc leo lên 1 con dốc trong khoảng 45 phút, bắt đầu với nhiều phần núi đá lởm chởm. Lên đến đỉnh đồi, bữa trưa đang chờ đợi bạn với nhiều món ăn hấp dẫn. Sau bữa trưa, đoàn sẽ được phổ biến quy tắc an toàn một lần nữa và được hỗ trợ mang các thiết bị an toàn, chuẩn bị cho chuyến phiêu lưu thực sự vào lòng đất. Đoàn sẽ bắt đầu leo xuống dốc để tiến vào cửa hang Sơn Đoòng.</p>
-                <p>Trên đường tiến đến bãi cắm trại đầu tiên trong Hang Sơn Đoòng bạn nên cẩn thận hơn vì có nhiều khối đá lớn, và phải trườn theo con đường mòn đầy đá.  Khối thạch nhũ khổng lồ được đặt tên gọi “Bàn Chân Chó” (Hand of Dog) sẽ chào đón bạn kết hợp cùng ánh sáng ban ngày chiếu xuyên qua hang thông qua giếng trời thứ nhất (Doline 1) sẽ tạo thành một cảnh tượng ngoạn mục, là món quà đầu tiên thiên nhiên ban tặng bạn sau những thử thách suốt cả ngày.  Đoàn sẽ men lối đi để đến với khu cắm trại vào khoảng 3 – 4 giờ chiều, thưởng thức một tách trà/cà-phê nóng và tiếp tục đi vào khám phá các hóa thạch cổ đại. Bạn có thể bơi lội một chút tại đây trước khi trở về bãi cắm trại nghỉ ngơi và thưởng thức một bữa tối thịnh soạn được chuẩn bị sẵn sàng, cùng ngắm nhìn khung cảnh kỳ vĩ xung quanh mình.</p>
-              </div>
+					<div class="portfolio toancanh" data-cat="toancanh">
+						<div class="portfolio-wrapper">
+							<img src="https://znews-photo-td.zadn.vn/w960/Uploaded/ngtmns/2016_05_09/8.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Chiêm ngưỡng bầu trời đầy sao Ở hố Sụt </p>
+									<span class="text-category">TOÀN CẢNH</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-              <div id="Ngay3" class="tabcontent">
-                <h3>Bãi cắm trại thứ nhất – Vọng khủng long – Vườn Địa Đàng – Bãi cắm trại thứ hai</h3>
-                <p>Đoàn sẽ được tiếp đãi một bữa sáng đầy dưỡng chất trước khi lên đường vào khoảng 9 giờ sang, hành trình đến bãi cắm trại thứ hai trong Hang Sơn Đoòng. Bạn sẽ bắt đầu bằng việc leo qua nhiều tảng đá với nhiều đoạn khá dốc để đến với khu rừng nguyên sinh đầu tiên trong hang được biết đến với tên gọi: Vọng Khủng Long. Bạn sẽ mất khoảng 1 giờ rưỡi để di chuyển từ Bãi cắm trại thứ nhất đến đây.</p>
-                <p>Đoàn sẽ nghỉ ngơi một chút trước khi di chuyển nhanh xuống những dốc đá, tiến đến những “vách bồn trũng” khổng lồ được tạo thành do canxi kết tủa, đây chính là một món quà tuyệt vời khác mà thiên nhiên ban tặng bạn trong chuyến đi này với khung cảnh đẹp đến kinh ngạc và cũng là nơi bạn sẽ dễ dàng chụp được nhiều tấm hình tuyệt đẹp. Còn gì thú vị hơn thưởng thức bữa trưa nhẹ trong một khung cảnh tuyệt vời từ giếng trời đầu tiên của hang Sơn Đoòng? Nếu may mắn, bạn có thể có cơ hội nhìn thấy những tia nắng (sunbeam) từ hố sụt một, tạo nên những bức hình thật sự ấn tượng.</p>
-                <p>Chuyến hành trình sẽ tiếp tục bằng việc băng qua những khối thạch nhũ khổng lồ và bãi ngọc trai hang động tuyệt đẹp, đi về hướng giếng trời thứ hai cùng khu rừng nguyên sinh chính của hang. Đi dọc theo con đường mòn là cả rừng dương xỉ xanh tươi hướng về không gian hố sụt thứ 2, khu rừng nguyên sinh dưới lòng đất. Đây là một trải nghiệm tuyệt vời mà bạn không thể tìm ra được ở bất cứ nơi đâu trên thế giới này. Sau khi băng rừng trong khoảng 45 phút, bạn sẽ vượt qua các con dốc trơn trượt để vào đến được bãi cắm trại thứ hai trong hang Sơn Đoòng vào lúc 2 – 3 giờ chiề</p>
-                <p>Đoàn sẽ quay trở lại bãi cắm trại vào khoảng 5 giờ chiều, nghỉ ngơi và tận hưởng một bữa tối thịnh soạn nhiều dinh dưỡng được chế biến bởi đội ngũ porter. Đừng quên tham gia giao lưu với mọi người, cùng tận hưởng cảnh sắc tuyệt đẹp của bãi cắm trại được mệnh danh là đẹp nhất thế giới.</p>
-              </div>
+					<div class="portfolio toancanh" data-cat="toancanh">
+						<div class="portfolio-wrapper">
+							<img src="https://znews-photo-td.zadn.vn/w960/Uploaded/jaroin/2015_12_18/6.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Con người trở nên nhỏ bé trong hang Sơn Đoàng</p>
+									<span class="text-category">TOÀN CẢNH</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-              <div id="Ngay4" class="tabcontent">
-                <h3>Bãi cắm trại thứ 2 – Bức Tường Việt Nam – Cửa ra Hang Sơn Đoòng – Chày Lập Farmstay</h3>
-                <p>Bữa sáng sẽ tiếp đầy năng lượng cho bạn để bắt đầu một ngày dài khám phá tiến về Bức tường Việt Nam. Bạn sẽ leo lên phía trên của Bức tường Việt Nam bằng thang kết hợp dây an toàn dưới sự giám sát của đội ngũ hướng dẫn. Sau khi lên đến nơi, bạn sẽ gặp ngay ánh sáng đến từ cửa ra của hang. Đi băng qua các khối thạch nhũ và bãi ngọc hang động để ngắm nhìn các hóa thạch cổ của động vật. Bạn sẽ thưởng thức bữa trưa hấp dẫn tại đây trước khi trở lại rừng. Một lối đi nhỏ gồ ghề sẽ dẫn bạn xuống chân đồi để tiếp tục đi bộ một quãng ngắn trở ra đường chính vào khoảng 3 giờ chiều. Sau đó xe sẽ đưa cả đoàn về khu nghỉ dưỡng Chày Lập Farmstay http://chaylapfarmstay.com/ nơi hồ bơi mát lạnh đang chờ đón bạn trở về. Bạn sẽ có một buổi chiều nghỉ ngơi, thư giãn tại đây. Tiệc Gala buổi tối được tổ chức lúc 6:30 với sự tham gia của các thành viên trong đoàn, đội ngũ chuyên gia và Hướng dẫn viên.</p>
-                <p>Vui lòng thông báo nhân viên kinh doanh của chúng tôi giờ đi của các bạn sau tour để chúng tôi tiện chuẩn bị và sắp xếp xe đưa về sân bay hoặc ga tàu. Nếu bạn muốn ở lại thêm tại Phong Nha, vui lòng cho chúng tôi biết để tiện hỗ trợ bạn đặt phòng tại Chày Lập Farmstay.</p>
-              </div>
+		      <div class="portfolio toancanh" data-cat="toancanh">
+						<div class="portfolio-wrapper">
+							<img src="http://dulichkhatvongviet.com/wp-content/uploads/2015/05/hang-son-doong-quang-binh.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Chiều cao hang Sơn Đoòng có thể chứa được tòa nhà 40 tầng</p>
+									<span class="text-category">TOÀN CẢNH</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-              <div id="NgayC" class="tabcontent">
-                <h3>Kết thúc tour</h3>
-                <p>Sau khi ăn sáng tại khách sạn, tài xế sẽ đón bạn ra sân bay hoặc nhà ga theo thời gian bạn đã thông báo. Đừng quên tận dụng cơ hội này để kéo dài chuyến đi của bạn, khám phá Phong Nha một cách trọn vẹn nhất bên cạnh cuộc thám hiểm. Bạn sẽ thực sự bị chinh phục bởi cảnh quan bình dị nơi đây với những dãy núi đá vôi hùng vĩ, những con sông uốn lượn xanh mát với những người dân địa phương thân thiện. Có rất nhiều sự lựa chọn cho bạn để tham quan như Trung tâm thể thao dưới nước Chày Lập, động Thiên Đường, Suối Nước Moọc,..hoặc các quán bar giải trí như Easy Tiger, Pub with Cold Beer.., các tour xe máy/xe đạp xuyên Vườn quốc gia, Thung lũng Bồng Lai.</p>
-                <p>Nếu bạn vẫn muốn trải nghiệm thêm các chuyến đi mạo hiểm khác, các tour từ một ngày đến hai ngày của Oxalis đến hệ thống hang động Tú Làn sẽ là lựa chọn hợp lý nhất (xem thêm tại đây). Hệ thống hang động này chính là quê hương của bộ phim Hollywood bom tấn Kong: Đảo Đầu Lâu, mang đến cho bạn những trải nghiệm tuyệt vời với cảnh quan thiên nhiên và có được cảm giác trở thành một phần của gia đình King Kong huyền thoại!</p>
-                <p>Chúc bạn tiếp tục có những trải nghiệm tuyệt vời cho hành trình tiếp theo!</p>
-              </div>
 
-          </div><!-- đóng tour-pubblic -->
-        </div>
-        </div><!-- đóng row-->
-      </div> <!--đóng section2-->
+					<div class="portfolio toancanh" data-cat="toancanh">
+						<div class="portfolio-wrapper">
+							<img src="https://secure.i.telegraph.co.uk/multimedia/archive/02948/caves-2_2948990k.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Cảnh quan tuyệt mĩ lấp lánh ánh sáng</p>
+									<span class="text-category">TOÀN CẢNH</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-      <div id="section3">
-        <div class="row">
-            <h2 >MỨC ĐỘ MẠO HIỂM</h2>
-          <div class="col-sm-4">
-            <img src="http://oxalis.com.vn/wp-content/uploads/2017/09/Adventure-level-Vn.png" alt="">
-          </div>
-          <div class="col-sm-8">
-            <div class="level">
-              <button class="accordion"><b>LEVEL 6</b></button>
-              <div class="panel">
-                <h3>Thám Hiểm Sơn Đoòng</h3>
-                <p>Hãy đảm bảo thể lực của bạn phù hợp với các hoạt động sau cho chuyến đi.</p>
-                  <ul>
-                      <li>Vượt 25km rừng núi (đi trek)</li>
-                      <li>Leo dốc cao đến 400m (từ đường đến thung lũng)</li>
-                      <li>Vượt nhiều sông rộng 10-50m (khoảng 40 lần) với mực nước cao đến đầu gối</li>
-                      <li>Đi 7km trong hang với địa hình phức tạp, có đoạn phải trườn hay sử dụng dây thừng trợ giúp (bao gồm 90m leo thang bằng các thiết bị an toàn lên Bức tường Việt Nam)</li>
-                      <li>Vượt sông ngầm với dòng chảy mạnh</li>
-                  </ul>
-                <p><i>Nhân viên Oxalis (chuyên gia hang động hoặc hướng dẫn viên) có quyền từ chối phục vụ, chấp nhận hoặc giữ lại bất cứ thành viên nào trong đoàn tham quan trong bất cứ thời điểm nào vì lý do an toàn. Oxalis sẽ không bồi thường hay hoàn lại tiền trong những trường hợp này. Tour Thám hiểm Sơn Đoòng là một chuyến đi không dành cho những người thiếu kinh nghiệm trekking, hạn chế về điều kiện sức khỏe, trẻ em hay phụ nữ có thai.</i></p>
-              </div>
+					<div class="portfolio toancanh" data-cat="toancanh">
+						<div class="portfolio-wrapper">
+							<img src="http://www.vietsuntour.com.vn/profiles/vietsuntourcomvn/uploads/attach/1485165982_thung-nang1.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Vẻ đẹp tuyệt tác của tạo hóa xứng đáng được bảo tồn</p>
+									<span class="text-category">TOÀN CẢNH</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-            <button class="accordion"><b>LEVEL 5</b></button>
-              <div class="panel">
-                <h3>Thám Hiểm Tú Làn</h3>
-                <p>Chuyến Thám hiểm Tú Làn được coi là khá khó, chỉ dành cho khách có sức khỏe tốt và hường xuyên hoạt động thể thao ngoài trời và có kinh nghiệm đi trek. Bạn phải biết bơi để tham gia hành trình này. Hãy đảm bảo thể lực của bạn phù hợp với các hoạt động sau cho chuyến đi:</p>
-                    <ul>
-                      <li>Vượt 30km rừng núi với địa hình không bằng phẳng</li>
-                      <li>Đi 5km trong hang</li>
-                      <li>Bơi 800m trong các hang (mỗi hang khoảng 100m - 300m)</li>
-                      <li>Leo dốc cao khoảng 300m (tổng đường dốc 1750m từ thung lũng cho đến đỉnh núi)</li>
-                      <li>1 lần đu dây trong hang tối</li>
-                      <li>4 ngày / 3 đêm trong rừng và hang động</li>
-                    </ul>
-                <p><i>Nhân viên Oxalis có quyền từ chối phục vụ, chấp nhận hoặc giữ lại bất cứ thành viên nào trong đoàn tham quan trong bất cứ thời điểm nào vì lý do an toàn. Oxalis sẽ không bồi thường hay hoàn lại tiền trong những trường hợp này.</i></p>
-              </div>
+					<div class="portfolio toancanh" data-cat="toancanh">
+						<div class="portfolio-wrapper">
+							<img src="http://vietnamtoi.com/wp-content/uploads/2016/05/20150407154115-nhung-hinh-anh-ngoan-muc-cua-hang-son-doong-traveltimes-1-600x0.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Những hình ảnh ngoạn mục của hang động Sơn Đoòng trên báo nước ngoài</p>
+									<span class="text-category">TOÀN CẢNH</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-            <button class="accordion"><b>LEVEL 4</b></button>
-              <div class="panel">
-                <h3>Thám Hiểm Hang Va</h3>
-                <p>Hãy đảm bảo thể lực của bạn phù hợp với các hoạt động sau cho chuyến đi.</p>
-                    <ul>
-                      <li>Vượt 10km rừng núi với địa hình không bằng phẳng</li>
-                      <li>Đi 3km và lội nước trong hang (mực nước có đoạn cao tới ngực, nhiệt độ nước khoảng 17 độ C)</li>
-                      <li>Leo dốc cao khoảng 150m (từ đường đến đỉnh núi)</li>
-                      <li>Vượt chướng ngại vật cao 20m với sự hỗ trợ của dây thừng và dây đai</li>
-                      <li>2 ngày / 1 đêm trong rừng và hang động</li>
-                    </ul>
-                <h3>Chinh phục Hang Tiên</h3>
-                <p>Hãy đảm bảo thể lực của bạn phù hợp với các hoạt động sau cho chuyến đi:</p>
-                    <ul>
-                      <li>Vượt 13km đường rừng với địa hình núi đá không bằng phẳng</li>
-                      <li>Lội qua các con suối (ngang đầu gối)</li>
-                      <li>Đi 5.5km trong hang</li>
-                      <li>Cắm trại 2 ngày 1 đêm trong rừng</li>
-                    </ul>
-                <h3>Thám hiểm Hang Tiên</h3>
-                <p>Hãy đảm bảo thể lực của bạn phù hợp với các hoạt động sau cho chuyến đi:</p>
-                    <ul>
-                    <li>Vượt 22 km đường rừng với địa hình núi đá không bằng phẳng</li>
-                    <li>Đi 6.5km trong hang</li>
-                    <li>Leo dốc cao khoảng 150m (chiều cao từ thung lũng cho đến đỉnh núi)</li>
-                    <li>Cắm trại 3 ngày 2 đêm trong rừng</li>
-                    </ul>
-                <p><i>Nhân viên Oxalis (chuyên gia hang động hoặc hướng dẫn viên) có quyền từ chối phục vụ, chấp nhận hoặc giữ lại bất cứ thành viên nào trong đoàn tham quan trong bất cứ thời điểm nào vì lý do an toàn. Oxalis sẽ không bồi thường hay hoàn lại tiền trong những trường hợp này.</i></p>
-              </div>
+					<!--list ảnh khi click Chinh Phục -->
+					<div class="portfolio chinhphuc" data-cat="chinhphuc">
+						<div class="portfolio-wrapper">
+							<img src="https://dantricdn.com/thumb_w/640/2017/doicatcuoihang-1497455880865.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Đồi cát cuối hang của một màu vàng kỳ ảo</p>
+									<span class="text-category">CHINH PHỤC</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-            <button class="accordion"><b>LEVEL 3</b></button>
-              <div class="panel">
-                <h3>Khám phá Hang Tiên</h3>
-                <p>Hãy đảm bảo thể lực của bạn phù hợp với các hoạt động sau cho chuyến đi.</p>
-                  <ul>
-                    <li>Vượt 8 km rừng núi với địa hình đá</li>
-                    <li>Đi 4 km khám phá hang</li>
-                  </ul>
-                <h3>Khám phá Hang Én</h3>
-                <p>Hãy đảm bảo thể lực của bạn phù hợp với các hoạt động sau cho chuyến đi.</p>
-                  <ul>
-                    <li>Vượt 22km rừng núi với địa hình không bằng phẳng</li>
-                    <li>Vượt sông (khoảng 30 lần) với mực nước cao tới đầu gối</li>
-                    <li>Leo dốc cao khoảng 400m (từ đường đến thung lũng)</li>
-                    <li>Đi 4km trong hang</li>
-                    <li>2 ngày / 1 đêm trong rừng và hang động</li>
-                  </ul>
-                <h3>Khám phá Tú Làn</h3>
-                <p>Hãy đảm bảo thể lực của bạn phù hợp với các hoạt động sau cho chuyến đi.</p>
-                  <ul>
-                    <li>Vượt 17km rừng núi với địa hình không bằng phẳng</li>
-                    <li>Vượt sông (khoảng 30 lần) với mực nước cao tới đầu gối</li>
-                    <li>Bơi 1km trong các hang (mỗi hang khoảng 200m - 500m)</li>
-                    <li>Đi 4km trong hang</li>
-                    <li>3 ngày / 2 đêm trong rừng và hang động</li>
-                  </ul>
-                <p><i>Nhân viên Oxalis (chuyên gia hang động hoặc hướng dẫn viên) có quyền từ chối phục vụ, chấp nhận hoặc giữ lại bất cứ thành viên nào trong đoàn tham quan trong bất cứ thời điểm nào vì lý do an toàn.
-                  Oxalis sẽ không bồi thường hay hoàn lại tiền trong những trường hợp này.</i></p>
-              </div>
+					<div class="portfolio chinhphuc" data-cat="chinhphuc">
+						<div class="portfolio-wrapper">
+							<img src="https://image.thanhnien.vn/1600/uploaded/ngocthanh/2016_03_02/son-10_jfdb.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Chạm cửa 'thiên đường'</p>
+									<span class="text-category">HINH PHỤC</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-            <button class="accordion"><b>LEVEL 2</b></button>
-              <div class="panel">
-                <h3>Thử sức Tú Làn</h3>
-                <p>Hãy đảm bảo thể lực của bạn phù hợp với các hoạt động sau cho chuyến đi.</p>
-                  <ul>
-                    <li>Vượt 12km rừng núi với địa hình không bằng phẳng</li>
-                    <li>Leo dốc cao khoảng 150m (chiều cao từ thung lũng cho đến đỉnh núi)</li>
-                    <li>Bơi 1km trong các hang (mỗi hang khoảng 200m - 500m)</li>
-                    <li>Đi 3km trong hang</li>
-                    <li>2 ngày / 1 đêm trong rừng và hang động</li>
-                  </ul>
-                <h3>Trải nghiệm Tú Làn</h3>
-                <p>Hãy đảm bảo thể lực của bạn phù hợp với các hoạt động sau cho chuyến đi.</p>
-                  <ul>
-                    <li>Vượt 9km rừng núi với địa hình không bằng phẳng</li>
-                    <li>Leo dốc cao khoảng 150m (chiều cao từ thung lũng cho đến đỉnh núi)</li>
-                    <li>Bơi 50m trong hang</li>
-                    <li>Đi 1km trong hang</li>
-                  </ul>
-                <p><i>Nhân viên Oxalis (chuyên gia hang động hoặc hướng dẫn viên) có quyền từ chối phục vụ, chấp nhận hoặc giữ lại bất cứ thành viên nào trong đoàn tham quan trong bất cứ thời điểm nào vì lý do an toàn.
-                  Oxalis sẽ không bồi thường hay hoàn lại tiền trong những trường hợp này.</i></p>
-              </div>
+					<div class="portfolio chinhphuc" data-cat="chinhphuc">
+						<div class="portfolio-wrapper">
+							<img src="https://dantricdn.com/thumb_w/640/2017/duongvaohangen-1497453473560.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Đường vào hang Én</p>
+									<span class="text-category">CHINH PHỤC</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-            <button class="accordion"><b>LEVEL 1</b></button>
-              <div class="panel">
-                <h3>Hang Nước Nứt</h3>
-                <p>Phần lớn mọi người đều có thể tham gia tour này nếu có thể đi bộ theo lối mòn (đôi khi có đá) trong vòng 30 - 60 phút cho mỗi chặng.</p>
-                <p>Nếu bạn có thắc mắc gì, hãy liên lạc với chúng tôi qua chat, email hoặc điện thoại.</p>
-              </div>
-          </div> <!-- đóng level-->
-          </div>
-        </div><!-- ĐÓNG ROW-->
-      </div><!-- ĐONG section3 -->
+					<div class="portfolio chinhphuc" data-cat="chinhphuc">
+						<div class="portfolio-wrapper">
+							<img src="https://dantricdn.com/thumb_w/640/2017/hokhanh-1497453141008.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Anh Hồ Khanh-Người phát hiện ra Sơn Đoòng và ông Howard</p>
+									<span class="text-category">CHINH PHỤC</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-      <div id="section4">
-        <div class="row">
-          <h2>THƯ VIỆN ẢNH</h2>
-          <div class="album">
-            <div  id="jLightroom" class="jlr gray_out">
-               <a href="https://d2d5f3568fvb9s.cloudfront.net/wp-content/uploads/2016/03/25130047/IMG_6056.jpg" data-lightbox="lb1" class="jlr_item"><img src="https://d2d5f3568fvb9s.cloudfront.net/wp-content/uploads/2016/03/25130047/IMG_6056.jpg" class="jlr_img" /></a>
-               <a href="http://vnreview.vn/image/11/72/44/1172448.jpg?t=1403422862049" data-lightbox="lb1" class="jlr_item"><img src="http://vnreview.vn/image/11/72/44/1172448.jpg?t=1403422862049" class="jlr_img" /></a>
-               <a href="http://oxalis.com.vn/wp-content/uploads/2014/11/son-doong-14-500x334.jpg" data-lightbox="lb1" class="jlr_item"><img src="http://oxalis.com.vn/wp-content/uploads/2014/11/son-doong-14-500x334.jpg" class="jlr_img" /></a>
-               <a href="http://static.thanhniennews.com/Uploaded/thuyvi/2015_06_27/sondoong2_HCLV.jpg" data-lightbox="lb1" class="jlr_item"><img src="http://static.thanhniennews.com/Uploaded/thuyvi/2015_06_27/sondoong2_HCLV.jpg" class="jlr_img" /></a>
-               <a href="http://authentictravelvietnam.com/wp-content/uploads/2016/11/Paradise-cave-3-1.jpg" data-lightbox="lb1" class="jlr_item"><img src="http://authentictravelvietnam.com/wp-content/uploads/2016/11/Paradise-cave-3-1.jpg" class="jlr_img" /></a>
-               <a href="http://oxalis.com.vn/wp-content/uploads/2015/12/12-Thang-Bamboo-500x333.jpg" data-lightbox="lb1" class="jlr_item"><img src="http://oxalis.com.vn/wp-content/uploads/2015/12/12-Thang-Bamboo-500x333.jpg" class="jlr_img" /></a>
-               <a href="http://oxalis.com.vn/wp-content/uploads/2017/12/U7B9858-500x333.jpgg" data-lightbox="lb1" class="jlr_item"><img src="http://oxalis.com.vn/wp-content/uploads/2017/12/U7B9858-500x333.jpg" class="jlr_img" /></a>
-               <a href="http://oxalis.com.vn/wp-content/uploads/2017/12/DSCF6160-500x333.jpg" data-lightbox="lb1" class="jlr_item"><img src="http://oxalis.com.vn/wp-content/uploads/2017/12/DSCF6160-500x333.jpg" class="jlr_img" /></a>
-              <a href="https://vtv1.mediacdn.vn/thumb_w/650/2017/o-111516683-900-1484904095575.jpg" data-lightbox="lb1" class="jlr_item"><img src="https://vtv1.mediacdn.vn/thumb_w/650/2017/o-111516683-900-1484904095575.jpg" class="jlr_img" /></a>
-            </div>
+					<!--list ảnh khi click Hệ Sinh Thái -->
+					<div class="portfolio hesinhthai" data-cat="hesinhthai">
+						<div class="portfolio-wrapper">
+							<img src="https://i-dulich.vnecdn.net/2013/09/18/son-doong-up-110104-02-1379492060_680x0.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Một loại cây trong hang</p>
+									<span class="text-category">HỆ SINH THÁI</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-          </div> <!-- đóng album -->
-        </div> <!-- đóng row -->
-      </div> <!--đóng section4-->
+					<div class="portfolio hesinhthai" data-cat="hesinhthai">
+						<div class="portfolio-wrapper">
+							<img src="http://viewnews.vn/wp-content/uploads/2017/12/ve-dep-cua-hang-Son-Doong-9.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Dòng sông Rào Thương chảy quanh Sơn Đoòng</p>
+									<span class="text-category">HỆ SINH THÁI</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-      <a href="#" id="top">
-        <img src="scrolltop.png" alt="">
-      </a>
+					<div class="portfolio hesinhthai" data-cat="hesinhthai">
+						<div class="portfolio-wrapper">
+							<img src="https://dantricdn.com/thumb_w/640/2017/rungtronghang-1497455654893.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Rừng ở hố Sụt 2 trong hang Sơn Đoòn</p>
+									<span class="text-category">HỆ SINH THÁI</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-      
-      		<div id="footer">
-      			<div class="bar">
-      				<div class="row">
-      					<div class="col-sm-5">
-      						<ul class="links">
-      						 <li><a href="#">Trang chủ</a></li>
-      						 <li><a href="#">Thông tin</a></li>
-      						 <li><a href="#">Ảnh</a></li>
-      						 <li><a href="#">Video</a></li>
-      						 <li><a href="#">Dự án</a></li>
-      						 <li><a href="#">Hành động</a></li>
-      					 </ul>
-      					</div>
 
-      					<div class="col-sm-7">
-      						<div class="social">
-      							<a href="#" class="fb">
-      								<span data-icon="f"  class="icon"></span>
-      								<span class="info">
-      									<span class="follow">Become a fan Facebook</span>
-      									<span class="num">9,999</span>
-      								<span>
-      							</a>
+					<div class="portfolio hesinhthai" data-cat="hesinhthai">
+						<div class="portfolio-wrapper">
+							<img src="http://st.galaxypub.vn/staticFile/Subject/2015/12/28/0_281538694.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Khu rừng ở bên trong hang Sơn Đoòng </p>
+									<span class="text-category">HỆ SINH THÁI</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
 
-      							<a href="#" class="y">
-      								<span data-icon="U" class="icon"></span>
-      								<span class="info">
-      									<span class="follow">Follow us Youtobe</span>
-      									<span class="num">9,999</span>
-      								</span>
-      							</a>
+		      <div class="portfolio hesinhthai" data-cat="hesinhthai">
+		        <div class="portfolio-wrapper">
+		          <img src="http://media.baodautu.vn/Images/phongvien/2016/08/09/hangdong8.jpg" alt="" />
+		          <div class="label">
+		            <div class="label-text">
+		              <p class="text-title">Dòng sông ngầm bên trong Sơn Đoòng</p>
+		              <span class="text-category">HỆ SINH THÁI</span>
+		            </div>
+		            <div class="label-bg"></div>
+		          </div>
+		        </div>
+		      </div>
 
-      							<a href="#" class="tw">
-      								<span data-icon="T" class="icon"></span>
-      								<span class="info">
-      									<span class="follow">Follow us Twitter</span>
-      									<span class="num">9,999</span>
-      								</span>
-      						</a>
-      						</div>
-      					</div>
-      					<div class="clear"></div>
-      					<div class="copyright">&copy; Bản quyền năm 2018 thuộc về #savesondong</div>
-      			</div>
-      		</div>
-      	</div>
-    </div> <!-- đóng container-fluid-->
-    <script src="ttt.js"></script>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <script src="jquery-3.2.1.js"></script>
-    <script src="jquery-3.2.1.min.js"></script>
-    <script src="bootstrap.min.js"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
-    <script src="jquery.lightroom.js"></script>
-  </body>
+					<div class="portfolio hesinhthai" data-cat="hesinhthai">
+						<div class="portfolio-wrapper">
+							<img src="https://i.ytimg.com/vi/UWMp2bgKHcQ/maxresdefault.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Thảm thực vật trong hang Sơn Đoòng</p>
+									<span class="text-category">HỆ SINH THÁI</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- list ảnh khi click Địa CHất -->
+					<div class="portfolio diachat" data-cat="diachat">
+						<div class="portfolio-wrapper">
+							<img src="https://i-dulich.vnecdn.net/2018/01/20/4-Ho-nu-o-c-du-o-i-cha-n-cu-a-hang-So-n-Doo-ng-1516391401_680x0.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Hồ nước dưới chân cửa hang Sơn Đoòng</p>
+									<span class="text-category">ĐỊA CHẤT</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio diachat" data-cat="diachat">
+						<div class="portfolio-wrapper">
+							<img src="https://www.poyi.org/69/photos/02/69-02-PeteC-A-05.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">thực thể địa chất đặc trưng của hang Sơn Đoòng </p>
+									<span class="text-category">ĐỊA CHẤT</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio diachat" data-cat="diachat">
+						<div class="portfolio-wrapper">
+							<img src="http://image.baophapluat.vn/w620/Uploaded/nguyennhumai/2017_05_19/1_YDSM.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Lắp thang vượt nhũ triệu năm tuổi</p>
+									<span class="text-category">ĐIA CHẤT</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio diachat" data-cat="diachat">
+						<div class="portfolio-wrapper">
+							<img src="http://st.galaxypub.vn/staticFile/Subject/2014/11/07/331143/hang-son-doong-nhung-gia-tri-chua-ai-tung-biet_1214720.jpg" alt="" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Bãi sỏi rộng lớn trong hang</p>
+									<span class="text-category">ĐỊA CHẤT</span>
+								</div>
+								<div class="label-bg"></div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- đóng portfoliolist -->
+		<a href="#" id="top"><img src="./scrolltop.png" /></a>
+
+		<div id="footer">
+			<div class="row">
+				<div class="bar">
+					<div class="col-sm-5">
+						<ul class="links">
+						 <li><a href="trangchu.html">Trang chủ</a></li>
+						 <li><a href="thongtin.html">Tổng quan</a></li>
+						 <li><a href="anh.html">Ảnh</a></li>
+						 <li><a href="video.html">Video</a></li>
+						 <li><a href="#">Dự án&Hành động</a></li>
+					 </ul>
+					</div>
+
+					<div class="col-sm-7">
+						<div class="social">
+							<a href="https://www.facebook.com/Save-Son-%C4%90o%C3%B2ng-182771025675013/" class="fb">
+								<span data-icon="f"  class="icon"></span>
+								<span class="info">
+									<span class="follow">Become a fan Facebook</span>
+									<span class="num">9,999</span>
+								<span>
+							</a>
+
+							<a href="https://www.youtube.com/channel/UCb-1-s6lb7TThX-7eoz1n3w" class="y">
+								<span data-icon="U" class="icon"></span>
+								<span class="info">
+									<span class="follow">Follow us Youtobe</span>
+									<span class="num">9,999</span>
+								</span>
+							</a>
+
+							<a href="https://twitter.com/savesondoong" class="tw">
+								<span data-icon="T" class="icon"></span>
+								<span class="info">
+									<span class="follow">Follow us Twitter</span>
+									<span class="num">9,999</span>
+								</span>
+						</a>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="copyright">&copy; Bản quyền năm 2018 thuộc về #savesondong</div>
+			</div><!--đóng row-->
+		</div><!--đóng bar-->
+	</div><!--đóng footer-->
+	</div> <!--dóng container-fluid-->
+
+	<script src="anh.js"></script>
+	<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+</body>
 </html>
