@@ -15,22 +15,52 @@
 }
 body,html{
   margin: 0px;
-  padding: 0px;
   width: 100%;
   max-height: 1200px;
   font-size: 17px;
 }
+
+#header{
+  margin: auto;
+  font-size: 19px;
+  font-family: sans-serif;
+  width: 100%;
+}
+.navbar-header{
+  margin-left: 50px;
+}
+.image{
+  margin: auto;
+
+  position: absolute;
+}
+.slides{
+  margin: auto;
+
+}
+.margin{
+  margin: 12px;
+}
+.none-color{
+  background-color: rgba(0, 0, 0, 0.6 );
+  border-color: rgba(255, 0, 255, 0);
+}
+.color{
+  background-color: black ;
+  border-color: white;
+}
 #container-fluid{
   position:relative;
   width: 100%;
-  margin: auto;
+  margin-top: 100px;
   padding: 0px;
-
+  clear: both;
 }
 #section1{
   width: 100%;
   margin: auto;
   padding: 0px;
+  background-image: url('http://savesondoong.org/wp-content/uploads/2017/10/AboutSaveSonDoong.png');
 }
 #section1 .row{
   width: 98%;
@@ -185,7 +215,8 @@ body,html{
       }
 
 #section4 .row{
-    min-height: 950px;
+  min-height: 950px;
+  background-color: #ccc;
 }
 #section4 .album{
   width: 98%;
@@ -230,12 +261,41 @@ body,html{
     .gray_out {
         background-color: #eee;
     }
+
+#section5{
+  width: 100%;
+  margin: auto;
+
+}
+#section5 .row{
+  width: 96%;
+  margin: auto;
+}
+    .row h2{
+      margin-left: 50px;
+      color: #ff0000;
+    }
+    .row p{
+      text-align: justify;
+      font-size: 17px;
+    }
+    .row ul li{
+      text-align: justify;
+
+    }
+#top {
+	position: fixed;
+	right: 10px;
+	bottom: 120px;
+	display: none;
+}
+
 /* định dạng cho phafanf footer */
 #footer{
+  top: 50px;
   clear: both;
+  height: 50px;
   width: 100%;
-  margin: 0px;
-  padding: 0px;
   background-color:#2E3639;
   position:relative;
   z-index: 1;
@@ -249,16 +309,14 @@ body,html{
     transition:all .2s linear;
 }
 
-#footer .bar{ /* màu nền cho footer */
+#footer .row{ /* màu nền cho footer */
   background-color:#1E2629;
   padding: 30px 0; ;
 }
-#footer .row{ /* kich thước chứa nội dung của footer */
-  width: 100%;
-  margin: 0px auto;
+#footer .bar{ /* kich thước chứa nội dung của footer */
   height: 50px;
   font-size:15px;
-
+  margin:0 auto;
   max-width:1200px;
   position:relative;
 
@@ -357,11 +415,4 @@ body,html{
   .links li {
     margin-right:5px;
     }
-  }
-
-  #top { /* định dạng cho nut back to top*/
-    clear: both;
-  	right: 10px;
-  	bottom: 200px;
-  	display: none;
   }
